@@ -5,13 +5,13 @@ Created on 2020年8月18日
 '''
 import flask
 
-app =flask.Flask(__name__)
-app.config["DEBUG"] = True
+bot =flask.Flask(__name__)
+bot.config["DEBUG"] = True
 
 
-@app.route('/', methods=['GET'])
+@bot.route('/', methods=['GET'])
 def home():
     return "<h1>Hello Flask!</h1>"
 
 
-app.run(port=5000)
+bot.run(port=5000)
