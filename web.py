@@ -5,7 +5,7 @@ Created on 2020年8月18日
 '''
 import flask
 
-bot =flask.Flask(__name__)
+bot=flask.Flask(__name__)
 bot.config["DEBUG"] = True
 
 
