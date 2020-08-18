@@ -13,5 +13,5 @@ bot.config["DEBUG"] = True
 def home():
     return "<h1>Hello Flask!</h1>"
 
-
-bot.run()
+if __name__ == '__main__':
+    bot.run()
