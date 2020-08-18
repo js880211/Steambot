@@ -14,4 +14,4 @@ def home():
     return "<h1>Hello Flask!</h1>"
 
 
-bot.run(port=5000)
+bot.run()
